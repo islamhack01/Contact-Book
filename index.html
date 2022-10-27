@@ -1,0 +1,47 @@
+  <!DOCTYPE html>
+  <html lang="en">
+      <head>
+          <meta charset="UTF-8" />
+          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <link rel="stylesheet" href="./css/main.css"/>
+          <title>Document</title>
+      </head>
+      <body>
+          <form action="">
+              <h2>Create</h2>
+              <div class="inputs">
+                  <input type="text" class="name" id="name" autocomplete ="off" placeholder ="Enter Name"/>
+                  <input type="text" id="email" autocomplete ="off" placeholder="Enter Email"/>
+                  <input type="text" id="img" autocomplete ="off" placeholder="Enter imgURL"/>
+              </div>
+              <div class="btn_C_Check">
+                  <button id="btnCreate">Create</button>
+                  <button id="btnCheck">Read Contact</button>
+              </div>
+          </form>
+          <div class="main-modal">
+              <div class="inner-modal">
+                  <p>Edit Contact</p>
+                  <input type="text" class="iEdName" autocomplete ="off" placeholder="Enter new Name"/>
+                  <input type="text" class="iEdMail" autocomplete ="off" placeholder="Enter new Mail"/>
+                  <input type="text" class="iEdImg" autocomplete ="off" placeholder="Enter new imgURL"/>
+                  <button class="btnSave">Save</button>
+                  <div class="close">
+                      <button class="btnClose">Close</button>
+                  </div>
+              </div>
+          </div>
+          <div class="newContact">
+              <h2>Contacts</h2>
+              <div class="ul contact_List">
+                  <div class="contact">
+                    <div class="form"></div>
+                      <div class="img"></div>
+                  </div>
+              </div>
+          </div>
+          </div>
+          <script src="./js/script.js"></script>
+      </body>
+  </html>
